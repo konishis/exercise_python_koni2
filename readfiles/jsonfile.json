@@ -1,0 +1,23 @@
+{
+"breakfast": {
+    "hours": "7-11",
+    "items": {
+            "corn soup": "$2.50",
+            "pan": "$10.00"
+            }
+        },
+"lunch": {
+    "hours": "11-15",
+    "items": {
+            "rice": "$3.50",
+            "boiled sake": "$20.00"
+            }
+        },
+"dinner": {
+    "hours": "15-22",
+    "items": {
+            "spaghetti": "$30.00",
+            "sushi": "$50.00"
+            }
+        }
+}

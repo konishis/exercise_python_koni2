@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+ <body>
+  <root>
+   <breakfast type="dict">
+    <hours type="str">
+     7-11
+    </hours>
+    <items type="dict">
+     <corn_soup type="str">
+      $2.50
+     </corn_soup>
+     <pan type="str">
+      $10.00
+     </pan>
+    </items>
+   </breakfast>
+   <lunch type="dict">
+    <hours type="str">
+     11-15
+    </hours>
+    <items type="dict">
+     <rice type="str">
+      $3.50
+     </rice>
+     <boiled_sake type="str">
+      $20.00
+     </boiled_sake>
+    </items>
+   </lunch>
+   <dinner type="dict">
+    <hours type="str">
+     15-22
+    </hours>
+    <items type="dict">
+     <spaghetti type="str">
+      $30.00
+     </spaghetti>
+     <sushi type="str">
+      $50.00
+     </sushi>
+    </items>
+   </dinner>
+  </root>
+ </body>
+</html>
