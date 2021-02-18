@@ -35,31 +35,27 @@ def readjsonfile():
 
 def writexmlfile(writefile):
     """指定したxmlに書き込んで返す"""
-    # print("書き込み中")
     with open(r"xmlfile.xml", "wt") as xmlfile:
         xmlfile.write(writefile)
         return xmlfile
 
 
 def shapingxmlfile(xmlfile):
-    """外部モジュール'BeautifulSoup4'を使用し、xmlを整形する"""
-    # print("xmlFileを整形中")
+    """外部モジュール'BeautifulSoup4'を使用する。
+    xmlを整形し返す"""
     shapingfile = BeautifulSoup(xmlfile, "lxml")
     return shapingfile.prettify()
 
 
 def jsontodictfile(targetfile):
     """jsonをdictに変換して返す"""
-    # print("jsonから辞書に変換中")
     translateddictfile = json.load(targetfile)
     return translateddictfile
 
 
 def dicttoxmlfile(targetfile):
     """dictをxmlに変換して返す"""
-    # print("辞書からxmlに変換中")
     translatedxmlfile = dicttoxml.dicttoxml(targetfile)
-    # print(translatedxmlfile)
     return translatedxmlfile
 
 
